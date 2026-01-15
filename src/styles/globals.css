@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  /* Light mode - Pastel beige theme with red accents */
+  --bg-primary: #F5F1E8;
+  --bg-secondary: #FDFBF7;
+  --bg-card: #FFFFFF;
+  --text-primary: #2C2416;
+  --text-secondary: #5C5346;
+  --text-muted: #8B8275;
+  --border: #E5DED0;
+  --accent-primary: #DC2626;
+  --accent-secondary: #D4A574;
+  --accent-tertiary: #9FBF8F;
+  --accent-hover: #B91C1C;
+}
+
+[data-theme="dark"] {
+  /* Dark mode - Black with red and pastel accents */
+  --bg-primary: #0F0E0D;
+  --bg-secondary: #1A1816;
+  --bg-card: #252320;
+  --text-primary: #F5F1E8;
+  --text-secondary: #C9C2B5;
+  --text-muted: #8B8275;
+  --border: #3A3632;
+  --accent-primary: #EF4444;
+  --accent-secondary: #D4A574;
+  --accent-tertiary: #9FBF8F;
+  --accent-hover: #F87171;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+}
